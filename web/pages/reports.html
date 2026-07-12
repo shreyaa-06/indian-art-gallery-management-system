@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reports — ShilpSangraha</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <div class="app-layout">
+    <div id="app-sidebar"></div>
+    <div class="main-content">
+      <div id="app-navbar"></div>
+      <main class="page-content">
+        <div class="stats-grid" style="margin-bottom:2rem">
+          <div class="stat-card">
+            <div class="stat-label">Total Collection Value</div>
+            <div class="stat-value" id="total-value" style="font-size:1.75rem">—</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Visitors (Last 30 Days)</div>
+            <div class="stat-value" id="recent-visitors">—</div>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1.5rem">
+          <div class="card">
+            <div class="card-header"><h3>Artworks by Category</h3></div>
+            <div class="card-body" id="category-chart"><div class="loading"><div class="spinner"></div></div></div>
+          </div>
+          <div class="card">
+            <div class="card-header"><h3>Artworks by Status</h3></div>
+            <div class="card-body" id="status-chart"><div class="loading"><div class="spinner"></div></div></div>
+          </div>
+          <div class="card">
+            <div class="card-header"><h3>Exhibitions by Status</h3></div>
+            <div class="card-body" id="exhibition-chart"><div class="loading"><div class="spinner"></div></div></div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script src="/js/api.js"></script>
+  <script src="/js/auth.js"></script>
+  <script src="/js/utils.js"></script>
+  <script src="/js/components/toast.js"></script>
+  <script src="/js/components/sidebar.js"></script>
+  <script src="/js/components/navbar.js"></script>
+  <script src="/js/pages/reports.js"></script>
+</body>
+</html>
