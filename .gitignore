@@ -1,7 +1,14 @@
+# Maven
 target/
+dependency-reduced-pom.xml
+
+# Logs
+*.log
+
+# IDE
+.vscode/
 .idea/
-*.iml
-.classpath
-.project
-.settings/
+
+# OS
 .DS_Store
+Thumbs.db
