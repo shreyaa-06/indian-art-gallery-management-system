@@ -108,3 +108,23 @@ art_gallery/
 ## License
 
 MIT
+
+## Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Artworks
+![Artworks](screenshots/artworks.png)
+
+### Artists
+![Artists](screenshots/artists.png)
+
+### Customers
+![Customers](screenshots/customers.png)
+
+### Exhibitions
+![Exhibitions](screenshots/exhibition.png)
+
+### Reports
+![Reports](screenshots/reports.png)
