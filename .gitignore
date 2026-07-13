@@ -6,8 +6,12 @@ dependency-reduced-pom.xml
 *.log
 
 # IDE
-.vscode/
 .idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
 
 # OS
 .DS_Store
