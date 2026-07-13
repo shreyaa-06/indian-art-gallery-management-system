@@ -1,4 +1,5 @@
 # ShilpSangraha
+## Indian Heritage Art Gallery Management System
 
 A portfolio-quality **Indian Heritage Art Gallery Management System** built with vanilla HTML/CSS/JavaScript on the frontend and Java + JDBC + MySQL on the backend.
 
